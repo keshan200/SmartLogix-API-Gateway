@@ -6,12 +6,9 @@ server:
 
 
 spring:
-
   application:
     name: api-gateway
   cloud:
-    uri : http://config.platform:8888
-
     gateway:
       server:
         webflux:
