@@ -10,6 +10,6 @@ spring:
     name: api-gateway
   cloud:
     config:
-       uri: http://config.platform:8761
+       uri: http://config.platform:8888
 
 
